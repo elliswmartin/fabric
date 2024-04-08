@@ -14,6 +14,7 @@ from skimage.filters import gabor_kernel
 from PIL import Image
 from sklearn.cluster import KMeans
 import pywt
+from skimage.feature import hog
 
 def extract_log_features(image_array, sigma=0.7, scalar=True):
     """
