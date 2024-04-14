@@ -2,6 +2,8 @@
 # Dataset directories #
 Samples/
 Subsamples/ 
+Resized/
+pkls/
 
 # Compiled source #
 ###################
