@@ -3,6 +3,7 @@
 # Repo Contents
 The repository contains the entire pipeline for classifying [Intelligent Behaviour Understanding Group (iBUG)](https://ibug.doc.ic.ac.uk/resources/fabrics/) dataset using various texture and surface microgeometry features. 
 
+``` 
 .
 ├── docs                     # Documentation (rubric, proposal)
 ├── figs                     # Graphs and other visualizations 
@@ -20,3 +21,4 @@ The repository contains the entire pipeline for classifying [Intelligent Behavio
 ├── svm.ipynb                # Classifier 2
 ├── report.pdf               # Final report 
 └── README.md
+``` 
