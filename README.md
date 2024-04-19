@@ -22,12 +22,11 @@ The repository contains the entire pipeline for classifying [Intelligent Behavio
 ├── 2_svm_feature_vector.ipynb      # SVM classifier with three features vectorized (normals, HOG, BOVW) in the resized and balanced dataset version
 ├── 2_model_feature_vector.ipynb    # SVM classifier with three features vectorized (HOG, BOVW) with balanaced dataset
 ├── 3_parse_to_pickle_scalar.ipynb  # Parse data to df and add features as scalars; pickle df 
-├── 3_random_forest.ipynb           # Classifier 1 code 
-├── 3_svm.ipynb                     # Classifier 2 code
-├── 3_RF-BalancedWeighting.ipynb    # Classifier 2 balanced version
-├── 3_XG-Boost.ipynb                # Classifier 3 code
-├── 3_svm.ipynb                     # Classifier 2 code
-├── 3_Final_models.ipynb            # Summary of 3 classifiers applied for the Scalar Features and full dataset
+├── 3_random_forest.ipynb           # Classifier 1 Cross Validation + Hyper Parameter Tuning - Standard random forest, not accounting for imbalanced classes
+├── 3_svm.ipynb                     # Classifier 2 Cross Validation + Hyper Parameter Tuning - Support vector machine
+├── 3_RF-BalancedWeighting.ipynb    # Classifier 3 Cross Validation + Hyper Parameter Tuning - Weighted random forest
+├── 3_XG-Boost.ipynb                # Classifier 4 Cross Validation + Hyper Parameter Tuning - XGBoost Model w/SMOTE Upsampling
+├── 3_Final_models.ipynb            # Summary of All-Star Model Peformance (x4) on Training and Test Sets + Analysis of Computational Cost
 ├── report.pdf                      # Final report 
 └── README.md
 ``` 
